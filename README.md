@@ -13,10 +13,10 @@ Identify which questions asked on Quora are duplicates of questions that have al
 
 ## Real-world/Business objectives and constraints.
 
-1.) The cost of a mis-classification can be very high.
-2.) We would want a probability of a pair of questions to be duplicates so that we can choose any threshold of choice.
-3.) No strict latency concerns.
-4.) Interpretability is partially important.
+*  The cost of a mis-classification can be very high.
+*  We would want a probability of a pair of questions to be duplicates so that we can choose any threshold of choice.
+*  No strict latency concerns.
+*  Interpretability is partially important.
 
 
 
