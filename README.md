@@ -24,10 +24,10 @@ Identify which questions asked on Quora are duplicates of questions that have al
 
 ## Dataset
 
-1.)Data will be in a file Train.csv
-2.)Train.csv contains 5 columns : qid1, qid2, question1, question2, is_duplicate
-3.)Size of Train.csv - 60MB
-4.)Number of rows in Train.csv = 404,290
+*  Data will be in a file Train.csv
+*. Train.csv contains 5 columns : qid1, qid2, question1, question2, is_duplicate
+*  Size of Train.csv - 60MB
+*  Number of rows in Train.csv = 404,290
 
 
 ## Mapping the real-world problem to an ML Problem.
@@ -40,8 +40,8 @@ It is a binary classification problem, for a given pair of questions we need to 
 ## Performance Matrix used to quantify model performance
 
 Metric(s):
-• log-loss
-• Binary Confusion Matrix
+* log-loss
+* Binary Confusion Matrix
 
 
 
@@ -53,9 +53,9 @@ We build train and test by randomly splitting in the ratio of 70:30 or 80:20 wha
 
 ## Final Results
 
-Model                             Train Loss                        Test Loss
-Logistic Regression                 0.52                              0.52
-Linear SVM                          0.53                              0.53
+Model\t\t\t                             Train Loss\t\t                        Test Loss\n
+Logistic Regression\t\t\t                 0.52\t\t                              0.52\n
+Linear SVM\t\t\t                          0.53\t\t                              0.53
 
 
 
